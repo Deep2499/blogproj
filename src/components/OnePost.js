@@ -50,7 +50,7 @@ const OnePost = () => {
                                 <img
                                     src={urlFor(postData.authorImage).url()}
                                     className="w-10 h-10 rounded-full"
-                                    alt="Author is Ishraq"
+                                    alt="Author"
                                 />
                                 <h4 className="cursive flex items-center pl-2 text-2xl">
                                     {postData.name}
